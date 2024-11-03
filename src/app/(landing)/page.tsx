@@ -37,7 +37,7 @@ export default function Page() {
               ))}
             </ul>
 
-            <div className="">
+            <div className="w-full max-w-80">
               <ShinyButton
                 href="/sign-up"
                 className="relative z-10 h-14 w-full text-base shadow-lg transition-shadow duration-300 hover:shadow-xl"

@@ -1,6 +1,6 @@
-import { Pool } from "@neondatabase/serverless"
-import { PrismaNeon } from "@prisma/adapter-neon"
-import { PrismaClient } from "@prisma/client"
+import { Pool } from '@neondatabase/serverless'
+import { PrismaNeon } from '@prisma/adapter-neon'
+import { PrismaClient } from '@prisma/client'
 
 declare global {
   // eslint-disable-next-line no-var
@@ -8,7 +8,7 @@ declare global {
 }
 
 let prisma: PrismaClient
-if (process.env.NODE_ENV === "production") {
+if (process.env.NODE_ENV === 'production') {
   const pool = new Pool({ connectionString: process.env.DATABASE_URL })
   const adapter = new PrismaNeon(pool)
   prisma = new PrismaClient({ adapter })
