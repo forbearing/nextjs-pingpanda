@@ -136,7 +136,7 @@ export const MockDiscordUI = ({ children }: props) => {
           </div>
         </div>
 
-        {/* message history | */}
+        {/* message history */}
         <div className="flex flex-1 flex-col-reverse overflow-y-auto bg-discord-background p-4">{children}</div>
 
         {/* message input */}
