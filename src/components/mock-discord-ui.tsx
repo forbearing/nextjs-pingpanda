@@ -69,7 +69,7 @@ export const MockDiscordUI = ({ children }: props) => {
             </div>
           </div>
           <div className="mb-4 px-2">
-            <h3 className="text-[#8e9297 uppercase] mb-2 text-xs font-semibold">Direct Messages</h3>
+            <h3 className="mb-2 text-xs font-semibold uppercase text-[#8e9297]">Direct Messages</h3>
             <div className="flex cursor-pointer items-center rounded bg-[#393c43] px-2 py-1.5 text-white">
               <Image
                 src="/brand-asset-profile-picture.png"
@@ -95,7 +95,7 @@ export const MockDiscordUI = ({ children }: props) => {
           <div className="mr-2 size-8 rounded-full bg-brand-700" />
           <div className="flex-1">
             <p className="text-sm font-medium text-white">You</p>
-            <p className="flex items-center text-xs text-[#b9bbbe]">@your_account</p>
+            <p className="text-xs text-[#b9bbbe]">@your_account</p>
           </div>
           <div className="flex items-center space-x-2">
             <LucideMic className="size-5 cursor-pointer text-[#b9bbbe] hover:text-white" />
